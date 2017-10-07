@@ -40,7 +40,7 @@ public class ThreeDWalks {
         }
 
 
-        return -1;
+        return -1; // compiler could complain about missing return statement without this line
     }
 
 }
