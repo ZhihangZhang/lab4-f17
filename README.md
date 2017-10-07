@@ -221,32 +221,32 @@ Implement a method `numPaths` that returns the number of unique paths from the o
 ### Examples
 
 + `numPaths(0, 0, 0)`
-	+ Returns: 1
-	+ There is one path, which involves no movement.
+  + Returns: 1
+  + There is one path, which involves no movement.
 
 + `numPaths(1, 1, 1)`
-	+ Returns: 0
-	+ There is no path given that the special rule regarding the number of units moved applies only to the last step. Here, after the first step, we cannot move in any direction without overshooting (1, 1, 1) but we cannot also reach (1, 1, 1) from, say, (1, 0, 0) in 1 step.
+  + Returns: 0
+  + There is no path given that the special rule regarding the number of units moved applies only to the last step. Here, after the first step, we cannot move in any direction without overshooting (1, 1, 1) but we cannot also reach (1, 1, 1) from, say, (1, 0, 0) in 1 step.
 
 + `numPaths(1, 1, 2)`
-	+ Returns: 2
-	+ There are two paths. The first path involves 1 unit along the X axis, 2 units along the Z axis and then 1 unit along the Y axis. The second path involves 1 unit along the Y axis, 2 units along the Z axis and 1 unit along the X axis.
+  + Returns: 2
+  + There are two paths. The first path involves 1 unit along the X axis, 2 units along the Z axis and then 1 unit along the Y axis. The second path involves 1 unit along the Y axis, 2 units along the Z axis and 1 unit along the X axis.
 
 + `numPaths(0, 5, 0)`
-	+ Returns: 1
-	+ There is one path, which involves taking all steps along the Y axis: 1 unit, 2 units and then 2 more units.
+  + Returns: 1
+  + There is one path, which involves taking all steps along the Y axis: 1 unit, 2 units and then 2 more units.
 
 + `numPaths(1, 2, 3)`
-	+ Returns: 1
+  + Returns: 1
 
 + `numPaths(2, 2, 2)`
-	+ Returns: 0
+  + Returns: 0
 
 + `numPaths(3, 3, 3)`
-	+ Returns: 12
+  + Returns: 12
 
 + `numPaths(4, 4, 4)`
-	+ Returns: 12
+  + Returns: 12
 
 
 
@@ -260,3 +260,4 @@ These questions can be considered practice for the programming proficiency tests
 + You do not need to implement new classes.
 + You can use additional standard Java libraries by importing them.
 + Do not throw new exceptions unless the specification for the method permits exceptions.
+

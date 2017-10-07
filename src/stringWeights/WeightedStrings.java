@@ -47,6 +47,7 @@ public class WeightedStrings {
 	public static int getStringWeight(String str) {
 
 		// TODO: implement this method
+		return -1;
 
 	}
 
